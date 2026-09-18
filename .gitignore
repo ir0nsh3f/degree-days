@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.env
+# large pulls from scripts/fetch_era5.py
+data/county_tavg*.csv
+data/*.parquet
